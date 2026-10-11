@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Postbag - Bulk Mail App (MERN)
 
 Send one email to many recipients from a React UI. Express + Nodemailer does the sending, MongoDB keeps a record of every send, and a simple admin login protects it all.
@@ -92,3 +93,6 @@ Use a strong `JWT_SECRET`, change the seeded admin password, and put the app beh
 - HTML mode sends your markup as written; only the signed-in admin can send, but still avoid pasting untrusted HTML.
 - Records left on "sending" by a crash are marked failed on the next start.
 - There is no unsubscribe handling. If you email people who have not asked to hear from you, laws like CAN-SPAM and GDPR apply.
+=======
+# BulkMail
+>>>>>>> 80d8d4a1adc30aa20036d30e5e49fe3f763a501e
