@@ -6,6 +6,6 @@ export default defineConfig({
   server: {
     port: 5173,
     // Forward API calls to the Express server during development
-    proxy: { '/api': 'https://bulkmail-2-0ovv.onrender.com/api/health' },
+    proxy: { '/api': 'https://bulkmail-3-m5x7.onrender.com/api' },
   },
 });
